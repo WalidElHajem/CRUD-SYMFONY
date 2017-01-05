@@ -1,0 +1,29 @@
+{% extends "AnimalBundle::layout.html.twig"%}
+{% block head %}
+    <title>
+        {% block title %}
+            {{ parent() }}
+        {% endblock  %}
+
+    </title>
+{% endblock  %}
+
+{% block content %}
+    
+    <h1>Animaux</h1>
+    {% for animal in animaux %}
+        <article>
+        <h2> <a href="{{path ("animal_info", {'id': animal.id })}}" titre="Info {{ animal.nom }}">{{ animal.nom }}</a></h2>
+                   <h4> <a href="{{path ("animal_supp", {'id': animal.id })}}" titre="Supp {{ animal.nom }}">Supprimer</a></h4>
+
+        </article>
+
+        {% endfor %}
+  
+
+
+
+{% endblock  %}
+
+
+    

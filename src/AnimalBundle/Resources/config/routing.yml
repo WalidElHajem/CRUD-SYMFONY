@@ -1,0 +1,22 @@
+animal_homepage:
+    path:     /
+    defaults: { _controller: AnimalBundle:Default:index }
+animal_ajouter:
+    path:     /ajouter
+    defaults: { _controller: AnimalBundle:Default:ajouter }
+animal_info:
+    path:     /{id}/info
+    defaults: { _controller: AnimalBundle:Default:informations }
+    requirements:
+        id: \d+
+animal_modif:
+    path:     /{id}/modif
+    defaults: { _controller: AnimalBundle:Default:modification }
+    requirements:
+        id: \d+     
+animal_supp:
+    path:     /{id}/supp
+    defaults: { _controller: AnimalBundle:Default:suppression }
+    requirements:
+        id: \d+            
+

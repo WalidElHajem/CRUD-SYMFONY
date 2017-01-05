@@ -1,0 +1,34 @@
+{% extends "AnimalBundle::layout.html.twig"%}
+{% block head %}
+    <title>
+        {% block title %}
+            {{ parent() }}
+        {% endblock  %}
+
+    </title>
+{% endblock  %}
+{% block content %}
+    
+    <h1>Informations</h1>
+                   <h4> <a href="{{path ("animal_modif", {'id': animal.id })}}" titre="Info {{ animal.nom }}">Modifier</a></h4>
+                   <h4> <a href="{{path ("animal_homepage", {'id': animal.id })}}" titre="Info {{ animal.nom }}">Liste Animaux</a></h4>
+
+
+
+        <article>
+
+         <h2> {{ animal.age }}</h2>
+         <h2> {{ animal.nourriture }}</h2>
+         <h2> {{ animal.race }}</h2>
+         <h2> {{ animal.famille }}</h2>
+
+        </article>
+
+  
+
+
+
+{% endblock  %}
+
+
+    

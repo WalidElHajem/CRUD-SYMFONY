@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Applications/MAMP/htdocs/Test/app/config/services.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Resources/views/Default/ajouter.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/Test/app/config/security.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Resources/views/layout.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Resources/config/services.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Entity/Animal.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/app/config/routing_dev.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/UserBundle/Resources/config/services.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/app/Resources/views/default/index.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Controller/DefaultController.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/UserBundle/Entity/User.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/UserBundle/UserBundle.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/app/config/parameters.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/UserBundle/Resources/views/temp.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/Test/app/AppKernel.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/.git/config</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Resources/views/Default/info.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Repository/AnimalRepository.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AppBundle/Controller/DefaultController.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/UserBundle/Resources/config/security.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Resources/views/Default/modif.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/Test/app/config/routing.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/app/Resources/views/base.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/AnimalBundle.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/composer.lock</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/AnimalBundle/Form/AnimalType.php</file>
+            <file>file:/Applications/MAMP/htdocs/Test/composer.json</file>
+            <file>file:/Applications/MAMP/htdocs/Test/app/config/config.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/UserBundle/Resources/config/routing.yml</file>
+            <file>file:/Applications/MAMP/htdocs/Test/src/UserBundle/Resources/views/Default/index.html.twig</file>
+        </group>
+    </open-files>
+</project-private>

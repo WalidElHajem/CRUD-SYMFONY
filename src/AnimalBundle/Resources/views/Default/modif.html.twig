@@ -1,0 +1,24 @@
+{% extends "AnimalBundle::layout.html.twig"%}
+{% block head %}
+    <title>
+        {% block title %}
+            {{ parent() }}
+        {% endblock  %}
+
+    </title>
+{% endblock  %}
+{% block content %}
+    
+    <h1>Modifier animal</h1>
+
+    <form action="{{path ("animal_modif",{ 'id': id })}}" method="post">
+        {{ form_widget(form) }}
+          <input type ="submit">
+</form>
+
+
+
+{% endblock  %}
+
+
+    
